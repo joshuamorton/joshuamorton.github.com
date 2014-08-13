@@ -16,8 +16,6 @@
             </div>
         </div>
     </div>
-    <div class="page" id="empty">
-    </div>
     <div class="page" id="about">
     hello
     </div>
@@ -32,17 +30,17 @@
 
     <!--include this at the end, skrollr.js-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
+    <script type="text/javascript" src="skrollr.menu.min.js"></script>
     <script type="text/javascript">
     var s = skrollr.init({forceHeight:false});
+    skrollr.menu.init(s, {animate:true, easing:'linear'});
     </script>
-
     <script type="text/javascript">
     window.onload=function(){
 
         var central = document.getElementById("central");
         var splash = document.getElementById("splash");
-        central.style.left = splash.offsetWidth/2 - central.offsetWidth/2;
-        central.style.top = splash.offsetHeight/2 - 3*central.offsetHeight/4;
+        central.style.paddingTop = splash.offsetHeight/2 - 3*central.offsetHeight/4;
     };
     </script>
 
