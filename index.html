@@ -5,30 +5,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="viewport" class="viewport">
-        <div class="page" id="splash" data-start="left:0%;" data-3600-start="left:-300%;">
-            <div class="name" id="name">joshua morton</div>
-        </div>
-        <div class="page" id="about" data-start="left:100%;" data-3600-start="left:-200%;"></div>
-        <div class="page" id="projects" data-start="left:200%;" data-3600-start="left:-100%;"></div>
-        <div class="page" id="contact" data-start="left:300%;" data-3600-start="left:0%;"></div>
+    <div class="page" id="splash" data-top-bottom="background:rgb(255,255,255);" data-top-top="background:rgb(0,0,0);">
+        <div class="central" id="central">
 
+            <span class="name" id="name">joshua morton</span>
+            <div class="links">
+                <span class="link"><a href="#about">about</a></span> <span class="link"><a href="#projects">projects</a></span> <span class="link"><a href="#contact">contact</a></span>
+                <br>
+                ↓
+            </div>
+        </div>
     </div>
+    <div class="page" id="empty">
+    </div>
+    <div class="page" id="about">
+    hello
+    </div>
+    <div class="page" id="projects">
+        
+    </div>
+    <div class="page" id="contact" data-top-bottom="background:rgb(0,0,0);" data-top-top="background:rgb(255,255,255);">
+        
+    </div>
+
     
 
     <!--include this at the end, skrollr.js-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
     <script type="text/javascript">
-    var s = skrollr.init();
+    var s = skrollr.init({forceHeight:false});
     </script>
 
     <script type="text/javascript">
     window.onload=function(){
-        var name = document.getElementById("name");
+
+        var central = document.getElementById("central");
         var splash = document.getElementById("splash");
-        name.style.fontSize = 100;
-        name.style.left = splash.offsetWidth/2 - name.offsetWidth/2;
-        name.style.top = splash.offsetHeight/2 - name.offsetHeight;
+        central.style.left = splash.offsetWidth/2 - central.offsetWidth/2;
+        central.style.top = splash.offsetHeight/2 - 3*central.offsetHeight/4;
     };
     </script>
 
