@@ -48,21 +48,39 @@ body
     text-decoration: none;
 }
 
-#splash
-{
-}
-
 #about
 {
-    
+    font-size: 16pt;
+    font-family: 'Raleway', sans-serif;
 }
 
 #projects
 {
-    
+    font-size: 16pt;
+    font-family: 'Raleway',sans-serif;
 }
 
 #contact
 {
     
+}
+
+.circular
+{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered
+{
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    text-decoration: none;
 }
