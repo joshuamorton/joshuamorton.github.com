@@ -1,84 +1,50 @@
+<!doctype html>
 <html>
-<head>
-    <title>Joshua Morton</title>
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="page" id="splash" data-top-bottom="background:rgb(255,255,255);" data-top-top="background:rgb(0,0,0);">
-        <div class="central" id="central">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Joshua Morton by joshuamorton</title>
 
-            <span class="name" id="name">joshua morton</span>
-            <div class="links">
-                <span class="link"><a href="#about">about</a></span> <span class="link"><a href="#projects">projects</a></span> <span class="link"><a href="#contact">contact</a></span>
-                <br>
-                ↓
-            </div>
-        </div>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Joshua Morton</h1>
+        <p>About</p>
+
+
+        <p class="view"><a href="https://github.com/joshuamorton">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <p>Hi!
+I'm Joshua, a third year Computer Science major currently studying at the Georgia Institute of Technology. I'm heavily involved with the College of Computing, and currently serve as a Career Ambassador, helping to mentor students in preparation for eventually entering the workforce. I love python and machine learning.</p>
+
+<p>When I'm not busy being a nerd, I enjoy circus arts. I juggle, and diabolo, and when I can I play on a trapeze.</p>
+
+<p>I don't buy my own shirts.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <div class="page" id="about">
-        <div class="centered">
-            <img src="face.jpeg" class="circular">
-            <br>
-            <p>I'm Joshua Morton, a computer science major currently attending the Georgia Institute of Technology.  You can generally find me working with the College of Computing at Georgia Tech.
-            <p>When I'm not being a nerd, I enjoy doing a number of circus related things, including juggling, unicycling, acrobatics, and trapeze.  
-            <p>I don't buy my own shirts.
-            <p>I do <b><a href="#projects">projects</a></b>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-67835911-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
 
-        </div>
-    </div>
-    <div class="page" id="projects">
-        <div class="centered">
-            <center><h2><a href="https://github.com/joshuamorton/ClassRank">ClassRank</a></h2></center>
-            <p>This is a webapp I'm developing to use a collaborative filtering based approach to provide more useful metrics when students attempt to register for classes.  This was inspired by the often asked question among new students at Georgia Tech, "should I take CS1332 and CS2110 in the same semester".  It is written in python and runs on <a href="http://www.tornadoweb.org/en/stable/">Tornado</a>.
-            <p>Relevant highlights include the document in which I outline <a href="https://github.com/joshuamorton/ClassRank/blob/44524e0a9d21fdfb98bb0bd55b7b33abc03bcb93/Math/CollabFilter.pdf?raw=true">the collaborative filter I plan to use</a> and the <a href="https://github.com/joshuamorton/ClassRank/blob/demo/databases/RatingDatabase.py">classes used to implement databases with varying schema</a>.
-            <p>This project is a huge pet of mine, and something I actually want to develop into a working, useful tool.
-
-            <center><h2><a href="https://github.com/joshuamorton/csp-site">Csp-site</a></h2></center>
-            <p>Another webapp, developed in Django with <a href="http://www.ccorgs.com/orgs/the-agency">The Agency at Georgia Tech</a>.  I created the web side of a tool that would, given inputs of constraints regarding classes and schedules, create and provide a course schedule that met those constraints.  The tool no longer works and was never "stable", however it is something I would like to continue development on at some point.
-            I am currently reimplementing this project as my Capstone.
-
-            <center><h2><a href="https://github.com/joshuamorton/tidbits">Snippets</a></h2></center>
-            <p>I keep a repo of miscellaneous code snippets on github, among them are a few of interest.
-            <p><a href="https://github.com/joshuamorton/tidbits/blob/master/compiler.py">A brainfuck interpreter written in python</a> was what I chose to write for my final project in the intro to programming course at Georgia Tech, we could chose anything as long as it demonstrated an understanding of concepts.
-            <p><a href="https://github.com/joshuamorton/tidbits/blob/master/lispy.py">A basic lisp interpreter</a>, fun parts are that parsing the code is done in a single regex statement, and that you are able to import arbitrary python modules and therefore gain access to the standard library.  Conceivably, you could write a basic webapp in just a few lines, within the lisp.  This was written with Nick Johnson when we stumbled upon the stupid idea of writing a lisp parser in regex.
-            <p><a href="https://github.com/joshuamorton/tidbits/blob/master/obiwan_extras.py">Obiwan Extras</a> is an extension to the Obiwan module, a python type-assurance module that uses a gorgeous syntax.  It was written as a proof of concept with regards to the <a href="https://mail.python.org/pipermail/python-ideas/2014-August/028742.html">August 2014 proposal by Guido van Rossum to use MyPy syntax</a> as python's officially supported typing syntax.  It is my opinion that the syntax used by Obiwan is superior, and since Obiwan lacked the ability to create type-assured compound types, I implemented a simple tool that could provide such objects.
-
-            <center><h2><a href="https://github.com/joshuamorton/Overloading">Overloading</a></h2></center>
-            <p>On the subject of static types in python, well before I knew about annotations, and before the proposal to officially support types was introduced, I wrote a module to provide function (method) overloading, and a convoluted and weak form of pattern matching to python.  Its currently not very efficient, it does some very, very stupid things, which the readme outlines, but could be improved, although not to any useful end.
-        </div>
-    </div>
-    <div class="page" id="contact" data-middle-top="background:rgb(0,0,0);" data-top-top="background:rgb(255,255,255);">
-
-
-
-
-
-
-
-    
-        <div class="centered">
-        Email: joshua.morton@gatech.edu
-        </div>
-    </div>
-
-    
-
-    <!--include this at the end, skrollr.js-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
-    <script type="text/javascript" src="skrollr.menu.min.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init({forceHeight:false});
-    skrollr.menu.init(s, {animate:true, easing:'linear'});
-    </script>
-    <script type="text/javascript">
-    window.onload=function(){
-
-        var central = document.getElementById("central");
-        var splash = document.getElementById("splash");
-        central.style.paddingTop = splash.offsetHeight/2 - 3*central.offsetHeight/4;
-    };
-    </script>
-
-</body>
+  </body>
 </html>
