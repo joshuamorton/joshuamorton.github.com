@@ -1,11 +1,11 @@
 exclude: ["README.md"]
 
-title : ClassRank
+title : Joshuamorton
 author :
-  name : ClassRank
-  github : github.com/classrank
+  name : Joshua Morton
+  github : github.com/joshuamorton
 
-url: "classrank.github.io"
+url: "joshuamorton.github.io"
 
 markdown: rdiscount
 permalink: pretty
