@@ -1,7 +1,7 @@
 <h5>Pages</h5>
 <ul>
-    <li><a href="{{ site.pages }}">{{ site.pages }}</a></li>
-    <li><a href="{{ site.pages }}">{{ site.pages }}</a></li>
-    <li><a href="{{ site.pages }}">{{ site.pages }}</a></li>
-    
+    {% for page in site.pages %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+
 </ul>
