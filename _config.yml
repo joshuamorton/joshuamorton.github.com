@@ -1,0 +1,12 @@
+exclude: ["README.md"]
+
+title : ClassRank
+author :
+  name : ClassRank
+  github : github.com/classrank
+
+url: "classrank.github.io"
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
