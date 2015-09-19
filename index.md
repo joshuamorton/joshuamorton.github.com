@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Joshua Morton
+title: About Me
 priority: 1
 ---
 

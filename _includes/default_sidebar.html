@@ -1,6 +1,7 @@
 <h5>Pages</h5>
 <ul>
-    {% for page in site.pages.sort_by(:priority, 'asc') %}
+    {% assign pages = site.pages | sort: 'priority' %}
+    {% for page in pages  %}
         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
 
