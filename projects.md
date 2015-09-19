@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+priority: 3
 ---
 
 #Joshua Morton

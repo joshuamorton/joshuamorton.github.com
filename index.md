@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Joshua Morton
+priority: 1
 ---
 
 #Joshua Morton
