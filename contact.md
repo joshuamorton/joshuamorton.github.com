@@ -14,3 +14,5 @@ twitter: <https://twitter.com/JoshTheJuggles>
 
 linkedin: <https://www.linkedin.com/in/joshuamorton13>
 
+resume: [pdf](https://drive.google.com/file/d/0Bys9BGMJRUovYXFjWDRuRWJXUWc/view?usp=sharing)
+
