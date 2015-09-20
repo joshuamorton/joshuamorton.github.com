@@ -5,7 +5,7 @@ priority: 10
 ---
 
 #Joshua Morton
-#####Contact Me
+####Contact Me
 email: <joshua.morton@gatech.edu>
 
 github: <https://github.com/joshuamorton>
