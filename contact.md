@@ -14,5 +14,5 @@ twitter: <https://twitter.com/JoshTheJuggles>
 
 linkedin: <https://www.linkedin.com/in/joshuamorton13>
 
-resume: [pdf]({{ site.url }}/assets/resume.pdf), [docx]({{ site.url }}/assets/resume.odt)
+resume: [pdf](https://{{ site.url }}/assets/resume.pdf), [docx](https://{{ site.url }}/assets/resume.odt)
 
