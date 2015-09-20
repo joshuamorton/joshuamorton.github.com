@@ -14,8 +14,14 @@ priority: 5
  - [Graph visualization using simulated annealing](https://github.com/gtagency/graph-reduction)
  - [Autonomous Vehicles](https://github.com/gtagency/buzzmobile)
 
-We also hold events and Tech Talks. As an officer, I do [presentations](https://drive.google.com/folderview?id=0Bys9BGMJRUovS1RpWThwUUVXZnM&usp=sharing)
+We also hold events and Tech Talks. As an officer, I do [presentations](https://drive.google.com/folderview?id=0Bys9BGMJRUovS1RpWThwUUVXZnM&usp=sharing) on various topics, from autonomous vehicles to developing n-grams.
+
+I previously served as the secretary and currently serve as the External Relations officer, as such I work with professors and companies and organize talks and events to benefit the club.
 
 #####Undergraduate Council
+Undergraduate Council is the College of Computing's version of SGA. I currently serve as the Vice President, in which I am the voice that student organization leaders communicate with, and I represent the staff to those organization leaders. The Council approves new student orgs, solves problems, and works to enrich the environment for students in the College of Computing.
 
-#####Freshman Activities Board
+#####FLAME
+I serve as a mentor and advisor in the Freshman Leadership and Mentorship Experience at the College of Computing. This is an organization that aims to help incoming students adapt to the college experience and also give them applicable skills that are not taught in the curriculum. They also host nonacademic and social events. 
+
+As part of my role, I will be giving an introductory talk on python for those coming from a Matlab or Java background (from AP computer science) because many of the later talks are written in python.
