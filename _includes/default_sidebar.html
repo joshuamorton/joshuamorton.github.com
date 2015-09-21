@@ -4,6 +4,5 @@
     {% for page in pages  %}
         <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}
-        <li><a href="">Blog</a></li>
-
+        <li><a href="{% site.posts.last.url %}">Blog</a></li>
 </ul>
