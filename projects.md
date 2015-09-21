@@ -26,7 +26,7 @@ I attended [MHacks IV](http://mhacks-iv.devpost.com/) and while there developed 
 #####ABAGAIL
 [ABAGAIL](https://github.com/joshuamorton/ABAGAIL) is the machine learning library used for CS4641 (Machine Learning) at Georgia Tech. I made some updates to the old java library that includes one of the only implementations of the MIMIC algorithm. These included improved documentation and some major improvements in the efficiency of the vector mathematics that are vital to neural networks and other common matrix-based algorithms. These led to a 3-4x increase in the speed of large matrix multiplies in the framework.
 
-Additionally, I make use of the library in my [machine learning](https://github.com/joshuamorton/Machine-Learning) class, for which I published both my ABAGAIL code and the scikit-learn code, as well as supporting tools for data visualization through matplotlib.
+Additionally, I made use of the library in my [machine learning](https://github.com/joshuamorton/Machine-Learning) class, for which I published both my ABAGAIL code and the scikit-learn code, as well as supporting tools for data visualization through matplotlib.
 
 #####Buzzmobile
 [Buzzmobile](https://github.com/gtagency/buzzmobile) is the code repository for the Agency's large autonomous parade float project. This project has lasted several years, and for most of that time I served in an advisory role, though recently with my experience with IARRC, am expected to take a more leading role in development and project planning. In the past, I've both worked on documentation, as well as theoretical and abstract system design. Additionally, I implemented nodes, including one that honked the horn when the vehicle encountered an obstacle.
