@@ -8,7 +8,7 @@ priority: 3
 ####Projects
 
 #####IARRC
-![the IARRC Vehicle](https://{{ site.url }}/assets/IARRC.jpg){.image}
+![the IARRC Vehicle](https://{{ site.url }}/assets/IARRC.jpg)
 
 IARRC, the International Autonomous Robot Racing Competition. This year The Agency, a club I run, was asked to assist with software development for the competition by Robojackets, a GT robotics organization. [Our code](https://github.com/RoboJackets/iarrc-software), written in C++ allowed us to place 4th overall at the competition. 
 

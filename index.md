@@ -4,7 +4,7 @@ title: About Me
 priority: 1
 ---
 
-![my face](https://{{ site.url }}/assets/jmortonface.jpg){.image}
+![my face](https://{{ site.url }}/assets/jmortonface.jpg)
 
 #Joshua Morton
 ####About Me
