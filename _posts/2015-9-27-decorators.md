@@ -236,4 +236,7 @@ def dynamic_logging_decorator(file="out.log"):
 
 I leave testing this as an exercise to the reader. 
 
-That's a wrap for my introductory post, hope you enjoyed it. I'm always looking for feedback though you can't comment here. [Here's]() the link to the "inverted" version of this that should be a valid python 3.x file, and [here's]({{ site.github_url }}{{ page.path }}) the link to the post source.
+That's a wrap for my introductory post, hope you enjoyed it. I'm always looking for feedback though you can't comment here. [Here's]( {{ site.github_url }}"_blogscripts/2015-9-27-decorators.py") the link to the "inverted" version of this that should be a valid python 3.x file, and [here's]({{ site.github_url }}{{ page.path }}) the link to the post source.
+
+There may be some python errors in this, but the code in the source file is all correct.
+
