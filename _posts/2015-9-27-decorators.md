@@ -229,7 +229,8 @@ def dynamic_logging_decorator(file="out.log"):
     def debug_decorator(function):
         def decorated_function(*args, **kwargs):
             with open(file, 'a') as f:
-                f.write("calling function " + str(function) + " with args " + str(args) + "; and keyword args " + str(kwargs))
+                f.write("calling function " + str(function) +
+                " with args " + str(args) + "; and keyword args " + str(kwargs))
             return function(*args, **kwargs)
         return decorated_function
     return debug_decorator
