@@ -26,7 +26,7 @@
     {% endfor %}
 
     {% assign post = site.posts.first %}
-    <a class="sidebar-nav-item active' href="https://{{ site.url }}{{post.url}}">Blog</a>
+    <a class="sidebar-nav-item' href="{{post.url | remove_first:'/'}}">Blog</a>
     
   </nav>
 

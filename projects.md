@@ -4,8 +4,6 @@ title: Projects
 priority: 3
 ---
 
-#Joshua Morton
-####Projects
 
 #####IARRC
 ![the IARRC Vehicle](https://{{ site.url }}/assets/IARRC.jpg)

@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Contact
+title: Contact Me
 priority: 10
 ---
 
-#Joshua Morton
-####Contact Me
 email: <joshua.morton@gatech.edu>
 
 github: <https://github.com/joshuamorton>
