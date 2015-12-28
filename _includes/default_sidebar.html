@@ -1,9 +1,0 @@
-<h5>Explore</h5>
-<ul>
-    {% assign pages = site.pages | sort: 'priority' %}
-    {% for page in pages  %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endfor %}
-        {% assign post = site.posts.first %}
-        <li><a href="https://{{ site.url }}/2015/09/20/welcome-to-parseltongue/">Blog</a></li>
-</ul>
