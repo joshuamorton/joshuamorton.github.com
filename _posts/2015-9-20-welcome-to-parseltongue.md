@@ -3,7 +3,6 @@ layout: blog
 title: Welcome
 ---
 
-##Welcome to Parseltongue
 
 My name is Josh, and this is my blog. I happen to be a huge fan of python, and have over time written a few tutorials and posts about things in the language. Further, I'm a huge nerd when it comes to language design and theory. So while a lot of what is posted here will be in python, and regarding (mostly) CPython, not everything will be, and many posts will likely be theoretical in nature, with python simply the chosen implementation language. 
 

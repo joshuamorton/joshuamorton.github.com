@@ -4,7 +4,6 @@ title: Decorators
 python: 2015-9-27-decorators.py
 ---
 
-##Decorators
 
 Let's start off easy. This will be both an introduction to this blog's style and an introduction to a cool tool that every python programmer should know. I'm a huge fan of literate programming and all that, so this blog post will be available in two forms, a markdown form like this, as well as an inverted form, a runnable python file with the code and the commentary in comments. I'm writing this post with python 3 in mind (and generally I use python 3), but for this post specifically, there shouldn't be any python 2 incompatibilities.
 
