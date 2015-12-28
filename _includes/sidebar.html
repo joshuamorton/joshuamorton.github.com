@@ -9,7 +9,6 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,9 +24,10 @@
       {% endif %}
     {% endfor %}
 
-    {% assign post = site.posts.first %}
-    <a class="sidebar-nav-item' href="{{post.url | remove_first:'/'}}">Blog</a>
-    
+    <a class="sidebar-nav-item active">Blog</a>
+    {% for post in site.posts limit:5 %}
+		   <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.title }}</a>  
+	{% endfor %}   
   </nav>
 
   <div class="sidebar-item">
