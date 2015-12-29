@@ -17,5 +17,5 @@ kramdown:
 
 permalink: pretty
 highlighter: pygments
-paginate: 2
+paginate: 1
 paginate_path: "blog/page/:num"
