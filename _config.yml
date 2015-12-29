@@ -17,3 +17,4 @@ kramdown:
 
 permalink: pretty
 highlighter: pygments
+paginate: 2
