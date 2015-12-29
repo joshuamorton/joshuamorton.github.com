@@ -15,4 +15,4 @@ markdown: redcarpet
 permalink: pretty
 highlighter: pygments
 paginate: 1
-paginate_path: "blog/page:num"
+paginate_path: "blog/page/:num"
