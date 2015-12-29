@@ -24,7 +24,7 @@
       {% endif %}
     {% endfor %}
     <a class="sidebar-nav-item"></a>
-    <a class="sidebar-nav-item active">Blog</a>
+    <a class="sidebar-nav-item" href="/blog/">Blog</a>
     {% for post in site.posts limit:5 %}
 		   <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.title }}</a>  
 	{% endfor %}   
