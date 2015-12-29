@@ -12,10 +12,7 @@ python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master
 
 markdown: redcarpet
 
-kramdown:
-    input: GFM
-
 permalink: pretty
 highlighter: pygments
 paginate: 1
-paginate_path: "blog/page/:num"
+paginate_path: "blog/page:num"
