@@ -18,3 +18,4 @@ kramdown:
 permalink: pretty
 highlighter: pygments
 paginate: 2
+paginator_path: "blog/page:num"
