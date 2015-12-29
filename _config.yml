@@ -10,6 +10,10 @@ github_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master
 python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master/_blogscripts/"
 
 
-markdown: rdiscount
+markdown: kramdown
+
+kramdown:
+    input: GFM
+
 permalink: pretty
 highlighter: pygments
