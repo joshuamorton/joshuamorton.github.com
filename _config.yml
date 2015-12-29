@@ -10,7 +10,7 @@ github_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master
 python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master/_blogscripts/"
 
 
-markdown: kramdown
+markdown: redcarpet
 
 kramdown:
     input: GFM

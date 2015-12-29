@@ -4,9 +4,6 @@ title: Experience
 priority: 3
 ---
 
-#Joshua Morton
-####Experience
-
 #####College of Computing
 I work for the College of Computing at Georgia Tech as a Career Ambassador. This involves reviewing students' resumes, running mock interviews, and developing curricula for improving students' career-preparedness.
 
