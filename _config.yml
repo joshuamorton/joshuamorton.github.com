@@ -10,9 +10,8 @@ github_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master
 python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master/_blogscripts/"
 
 
-markdown: redcarpet
+markdown: kramdown
 
 permalink: pretty
-highlighter: pygments
 paginate: 1
 paginate_path: "blog/page/:num"
