@@ -9,13 +9,13 @@ During the summer of 2016 I interned at Google, working with the Youtube Desktop
 Testing team to improve testing infrastructre aiding in a frontend framework
 transition.
 
-### College of Computing
+### College of Computing]
 
 I worked for the College of Computing at Georgia Tech as a Career Ambassador.
 This involves reviewing students' resumes, running mock interviews, and
 developing curricula for improving students' career-preparedness.
 
-### [Decision First Technologies](experience/dft)
+### [Decision First Technologies](dft)
 
 I interned over the summer of 2015, building internal tooling and prototypes.
 
@@ -34,16 +34,7 @@ allowing the tool to build a classifier and then classify hand poses in real
 time once a trained classifier was provided. Heni used the code in a talk at
 ICRA 2015.
 
-### Circus Camp
+### [Circus Camp](circus)
 
-During high-school summers, I worked as a Camp Counselor at [Circus
-Camp](http://www.circuscamp.org/). As I worked my way from Counselor in
-Training, to Jr. Counselor to Counselor, my responsibilities grew. I began
-simply teaching juggling and unicycling to campers, but eventually could also
-teach and spot acrobatics and aerial trapeze and silks. My other
-responsibilities included checking equipment safety, inventory, setup, teardown,
-keeping track of small rambunctious children, and entertaining them throughout
-the day with improvisation, shows, and comedy.
-
-At the camp, each week would end with a camp-wide show in which campers would
-perform. I also helped design, plan, build props, and perform in these shows.
+During High School, I worked at Circus Camp, a bit different than all of the
+Computer Science I do now, but a great experience nonetheless.

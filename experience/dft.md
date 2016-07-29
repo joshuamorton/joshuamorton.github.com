@@ -1,5 +1,6 @@
 ---
-layout: DecisionFirst Technologiesj
+title: DecisionFirst Technologies
+layout: page
 priority: 0
 ---
 
