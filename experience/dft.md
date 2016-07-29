@@ -1,6 +1,6 @@
 ---
+layout: subpage
 title: DecisionFirst Technologies
-layout: page
 priority: 0
 ---
 
