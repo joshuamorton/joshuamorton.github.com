@@ -9,7 +9,7 @@ During the summer of 2016 I interned at Google, working with the Youtube Desktop
 Testing team to improve testing infrastructre aiding in a frontend framework
 transition.
 
-### College of Computing]
+### College of Computing
 
 I worked for the College of Computing at Georgia Tech as a Career Ambassador.
 This involves reviewing students' resumes, running mock interviews, and
