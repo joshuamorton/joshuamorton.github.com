@@ -17,10 +17,10 @@ A tool to help students pick college courses in a data driven manner.
 
 Small, throwaway projects that don't fit elsewhere, but are worth showing off.
 
-### Serve(serve)
+### [Serve](serve)
 
 A finalist at MHacks IV, making web-apps easier to build.
 
-### Buzzmobile(buzzmobile)
+### [Buzzmobile](buzzmobile)
 
 An autonomous parade float.
