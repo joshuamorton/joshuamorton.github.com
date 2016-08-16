@@ -4,10 +4,9 @@ title: Experience
 priority: 3
 ---
 
-### Google
+### [Google](google-intern)
 During the summer of 2016 I interned at Google, working with the Youtube Desktop
-Testing team to improve testing infrastructre aiding in a frontend framework
-transition.
+Testing team to improve testing infrastructure.
 
 ### College of Computing
 

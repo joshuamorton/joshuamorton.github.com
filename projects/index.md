@@ -4,14 +4,24 @@ title: Projects
 priority: 3
 ---
 
+### Open Source Contributions
 
-### [IARRC](iarrc)
+I've contributed to various open source tools, including
 
-An autonomous racecar built with the Georgia Tech RoboJackets.
+ - [gavel](https://github.com/anishathalye/gavel), a hackathon judging tool
+   developed by HackMIT
+ - [autoenv](https://github.com/kennethreitz/autoenv), a tool to manage project
+   environments
+ - [argon2_py](https://github.com/flamewow/argon2_py), python bindings for the
+   argon2 encryption algorithm
 
 ### [ClassRank](classrank)
 
 A tool to help students pick college courses in a data driven manner.
+
+### [IARRC](iarrc)
+
+An autonomous racecar built with the Georgia Tech RoboJackets.
 
 ### [Snippets](snippets)
 
