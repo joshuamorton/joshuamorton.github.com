@@ -41,9 +41,9 @@ help incoming students adapt to the college experience and also give them
 applicable skills that are not taught in the curriculum. We also host
 nonacademic and social events. 
 
-As part of my role, I will be giving an introductory talk on python for those
-coming from a Matlab or Java background (from AP computer science) because many
-of the later talks are written in python.
+As part of my role, I give introductory talks on python for those coming from a
+Matlab or Java background (from AP computer science) because many of the later
+talks involve python.
 
 ### HackGT
 
@@ -58,3 +58,11 @@ various other responsibilities as needed.
 
 In 2016 I joined HackGT as a member of the organizing committee, helping plan
 and run operations for the entire event.
+
+### Hackathons
+
+I've mentored hackers at various hackathons including:
+
+ - Spectra
+ - HackGT 2015
+ - HackGT 2014
