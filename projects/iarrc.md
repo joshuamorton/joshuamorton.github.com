@@ -1,12 +1,16 @@
 ---
-layout: subpage
+layout: page
 title: IARRC
 priority: 0
+summary: |
+    An entry in the International Autonomous Robot Racing Competition, built 
+    with the Georgia Tech Robojackets.
+image_url: /assets/images/IARRC.jpg
 ---
 
-![the IARRC Vehicle](https://{{ site.url }}/assets/IARRC.jpg)
+![the IARRC Vehicle]({{page.image_url}}){:.image .fit}
 
-IARRC, the International Autonomous Robot Racing Competition. This year The
+IARRC, the International Autonomous Robot Racing Competition. In 2015, The
 Agency, a club that has been building progressively more advanced autonomous
 vehicles, was asked to assist with software development for the competition by
 Robojackets, a GT robotics organization. [Our

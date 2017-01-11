@@ -20,8 +20,13 @@
           <header class="major">
             <h2>Blog</h2>
           </header>
-          <ul>
-          </ul>
+          <nav id='menu'>
+              <ul>
+                {% for post in site.posts limit:5 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}   
+              </ul>
+          </nav>
         </section>
 
       <!-- Footer -->
