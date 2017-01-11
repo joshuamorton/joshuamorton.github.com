@@ -2,6 +2,9 @@
 layout: subpage
 title: Circus Camp
 priority: 0
+logo: circuscamp.svg
+summary: |
+    I clowned around way too much.
 ---
 
 During high-school summers, I worked as a Camp Counselor at [Circus

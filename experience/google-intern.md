@@ -2,6 +2,9 @@
 layout: subpage
 title: Google
 priority: 0
+logo: google.png
+summary: |
+    I did some cool work for a cool company.
 ---
 
 During the summer of 2016, I interned with Google as a Software Engineer, Tools

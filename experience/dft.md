@@ -2,6 +2,10 @@
 layout: subpage
 title: DecisionFirst Technologies
 priority: 0
+logo: decisionfirst.jpg
+summary: |
+    some words here
+    across multiple lines
 ---
 
 During the summer of 2015 I interned with [Decision First
