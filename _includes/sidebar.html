@@ -1,38 +1,33 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+
+      <!-- Menu -->
+        <nav id="menu">
+          <ul>
+            <li><a href="{{ '' | absolute_url }}">Homepage</a></li>
+            <li><a href="{{ 'contact' | absolute_url}}">Contact Me</a></li>
+            <li><a href="{{ 'experience' | absolute_url }}">Experience</a></li>
+            <li><a href="{{ 'involvement' | absolute_url }}">Involvement</a></li>
+            <li><a href="{{ 'projects' | absolute_url }}">Projects</a></li>
+          </ul>
+        </nav>
+
+
+      <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Blog</h2>
+          </header>
+          <ul>
+          </ul>
+        </section>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>. Jekyll integration: <a href="https://andrewbanchi.ch">Andrew Banchich</a>.</p>
+        </footer>
+
+    </div>
   </div>
-
-  <nav class="sidebar-nav">
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    <a class="sidebar-nav-item"></a>
-    <a class="sidebar-nav-item" href="/blog/">Blog</a>
-    {% for post in site.posts limit:5 %}
-		   <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.title }}</a>  
-	{% endfor %}   
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
-</div>
