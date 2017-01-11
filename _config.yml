@@ -1,29 +1,36 @@
 # Site settings
-title: Editorial
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
-baseurl: "/editorial-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title: Joshua Morton
+subtitle: portfolio and blog
+email: joshua.morton13@gmail.com
+description: A personal website and blog for Joshua Morton.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://joshuamorton.github.io" # the base hostname & protocol for your site
+author: Joshua Morton
 
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/joshuamorton
+gitlab_url: 
+googleplus_url:
+instagram_url:
+linkedin_url: https://www.linkedin.com/in/joshuamorton13
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/joshthejuggles
+
+blog_github_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master/"
+blog_python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/master/_blogscripts/"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+exclude: ["README.md", "_blogscripts"]
+
+permalink: pretty
+paginate: 1
+paginate_path: "blog/page/:num"
+
+gems:
+    - jekyll-paginate

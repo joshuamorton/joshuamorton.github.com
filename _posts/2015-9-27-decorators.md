@@ -15,8 +15,7 @@ So python can have functions
 def f(x):  # adds one
     return x + 1
 ```
-Functions can obviously be vastly more complex than something that simply increments a value, but this will already get confusing, so we start simple.
-
+Functions can obviously be vastly more complex than something that simply increments a value, but this will already get confusing, so we start simple.  
 We also want to verify that our function actually *works*. 
 
 ```python
@@ -237,7 +236,7 @@ def dynamic_logging_decorator(file="out.log"):
 
 I leave testing this as an exercise to the reader. 
 
-That's a wrap for my introductory post, hope you enjoyed it. I'm always looking for feedback though you can't comment here. [Here's]( {{ site.python_url}}{{ page.python }}) the link to the "inverted" version of this that should be a valid python 3.x file, and [here's]({{ site.github_url }}{{ page.path }}) the link to the post source.
+That's a wrap for my introductory post, hope you enjoyed it. I'm always looking for feedback though you can't comment here. [Here's]( {{ site.blog_python_url}}{{ page.python }}) the link to the "inverted" version of this that should be a valid python 3.x file, and [here's]({{ site.blog_github_url }}{{ page.path }}) the link to the post source.
 
 There may be some python errors in this, but the code in the source file is all correct.
 
