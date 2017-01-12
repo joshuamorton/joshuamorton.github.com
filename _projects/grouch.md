@@ -7,18 +7,10 @@ summary: |
     A web scraper and API for the Georgia Tech Course Catalog.
 ---
 
-My [tidbits](https://github.com/joshuamorton/tidbits) repository serves as a
-place to store things that don't belong anywhere else. It contains short
-projects that don't deserve their own place. Things like musings on python
-internals and thoughts that end up being blog posts. Some of the coolest pieces
-are a 
-
- - [collaborative filter implementation in
-   scala](https://github.com/joshuamorton/tidbits/blob/master/CollabFilter.scala),
- - an implementation of [an object system that supports
-   inheritance](https://github.com/joshuamorton/tidbits/blob/master/objectModel.py),
- - a [short lisp
-   interpreter](https://github.com/joshuamorton/tidbits/blob/master/lispy.py)
-   written by a friend and me.
- - [swizzling, but in
-   python](https://github.com/joshuamorton/tidbits/blob/master/swizzle.py)
+While working on ClassRank, I came across a common issue: there are lots of
+people at Georgia Tech who want to work with data about courses and schedules,
+but there was no good way to access this data. OSCAR, the online course catalog,
+is dated and hard to access. To solve this, I built and publicized
+[Grouch](https://github.com/gttools/Grouch), an easily extensible tool that can
+parse the data from OSCAR into json and other formats without a lot of time or
+expertise.
