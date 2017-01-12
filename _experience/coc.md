@@ -8,3 +8,7 @@ summary: |
     prospects, and mentored them in mock technical interviews.
 ---
 
+In 2015 I worked as a career advisor in the College of Computing. I assisted
+other students with resumes and job applications, and provided experties
+regarding interviews, negotiations, and the process of getting jobs and
+internships.
