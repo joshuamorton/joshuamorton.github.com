@@ -12,5 +12,5 @@ twitter: <https://twitter.com/JoshTheJuggles>
 
 linkedin: <https://www.linkedin.com/in/joshuamorton13>
 
-resume: [pdf](https://{{ site.url }}/assets/resume.pdf), [docx](https://{{ site.url }}/assets/resume.odt)
+resume: [google drive](https://docs.google.com/document/d/1_0Evqab66FphoO_vk3w28bwmrwUFA2tOpP7MOG7NktA/edit?usp=sharing)
 
