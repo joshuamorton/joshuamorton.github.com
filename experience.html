@@ -1,0 +1,22 @@
+---
+layout: page
+title: Experience
+---
+
+<section>
+    <p>I've worked at some places and done some things. </p>
+    <div class="features">
+        {% assign experience = site.experience | sort:"priority" %}
+        {% for job in experience %}
+        <article>
+            <a href="{{job.url}}" class="image fit"><img src="/{{job.logo}}" alt=""
+                style="max-width:200px"/></a>
+            <div class="content">
+                <h3>{{job.title}}</h3>
+                <p>{{job.summary}}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+

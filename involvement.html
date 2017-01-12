@@ -1,0 +1,31 @@
+---
+layout: page
+title: Involvement
+---
+
+<section>
+    <p>In addition to these, which were more technical roles, I was also
+    involved with a number of government and mentorship organizations while a
+    student at GT.</p>
+
+    <p>Additionally, I've mentored at a few hackathons:</p>
+    <ul>
+        <li>Spectra</li>
+        <li>HackGT 2015</li>
+        <li>HackGT 2014</li>
+    </ul>
+    <div class="features">
+        {% assign involvement = site.involvement | sort:"priority" %}
+        {% for org in involvement %}
+        <article>
+            <a href="{{org.url}}" class="image fit"><img src="/{{org.logo}}" alt=""
+                style="max-width:200px"/></a>
+            <div class="content">
+                <h3>{{org.title}}</h3>
+                <p>{{org.summary}}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+

@@ -1,0 +1,23 @@
+---
+layout: page
+title: Projects
+---
+
+<section>
+    <p>Personal projects and things I've tinkered with on my own time</p>
+    <div class="features">
+        {% assign projects = site.projects | sort:"priority" %}
+        {% for project in projects %}
+        <article>
+
+            <a href="{{project.url}}" style="border-bottom:none">
+                <span class="icon fa-{{project.logo}}"></span></a>
+            <div class="content">
+                <h3>{{project.title}}</h3>
+                <p>{{project.summary}}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+
