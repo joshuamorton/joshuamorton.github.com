@@ -24,6 +24,8 @@ blog_python_url: "https://github.com/joshuamorton/joshuamorton.github.com/blob/m
 
 # Build settings
 markdown: kramdown
+kramdown:
+    input: GFM
 highlighter: rouge
 
 exclude: ["README.md", "_blogscripts"]
