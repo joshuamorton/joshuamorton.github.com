@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Neural Network Experiments
-priority: 150
-logo: line-chart
+title: The Agency
+priority: 1
+logo: assets/images/gtagency.jpg
 summary: |
-    Research project on how neural networks interact with time-series data.
+    The Automated Intelligence club at the College of Computing at Georgia Tech.
 ---
 
 My [tidbits](https://github.com/joshuamorton/tidbits) repository serves as a

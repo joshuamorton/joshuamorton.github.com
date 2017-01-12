@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Snippets
-priority: 0
+title: Grouch
+priority: 250
 logo: database
 summary: |
     A web scraper and API for the Georgia Tech Course Catalog.

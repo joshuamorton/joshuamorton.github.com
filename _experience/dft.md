@@ -4,8 +4,8 @@ title: DecisionFirst Technologies
 priority: 900
 logo: assets/images/decisionfirst.jpg
 summary: |
-    some words here
-    across multiple lines
+    I worked as a Business Intelligence intern, building integrations for some
+    of DFTs clients, as well as developer tools for other DFT devs.
 ---
 
 During the summer of 2015 I interned with [Decision First

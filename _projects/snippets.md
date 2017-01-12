@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Snippets
-priority: 0
+priority: 1000
 logo: file-text
 summary: |
     Miscellaneous small projects that don't fit anywhere else.

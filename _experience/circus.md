@@ -4,7 +4,7 @@ title: Circus Camp
 priority: 1000
 logo: assets/images/circuscamp.svg
 summary: |
-    I clowned around way too much.
+    I learned a bunch of circus skills and taught them to children.
 ---
 
 During high-school summers, I worked as a Camp Counselor at [Circus

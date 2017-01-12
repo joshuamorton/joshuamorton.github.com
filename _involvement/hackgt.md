@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Neural Network Experiments
-priority: 150
-logo: line-chart
+title: HackGT
+priority: 100
+logo: assets/images/hackgt.jpg
 summary: |
-    Research project on how neural networks interact with time-series data.
+    Georgia Tech's premiere Collegiate Hackathon.
 ---
 
 My [tidbits](https://github.com/joshuamorton/tidbits) repository serves as a

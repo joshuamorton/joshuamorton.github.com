@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ClassRank
-priority: 0
+priority: 200
 logo: users
 summary: |
     A collaborative filter applied to choosing college courses.

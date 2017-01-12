@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rust Neural Network
-priority: 0
+priority: 300
 logo: flash
 summary: |
     A simple matrix-based Neural Network library in Rust.

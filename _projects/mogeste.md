@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Mogeste
-priority: 0
+priority: 300
 logo: mobile
 summary: |
-    A tool ot help gesture designers create gesture based interactions.
+    A tool to help gesture designers create gesture based interactions.
 ---
 
 My [tidbits](https://github.com/joshuamorton/tidbits) repository serves as a

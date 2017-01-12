@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IARRC
-priority: 0
+priority: 900
 summary: |
     An entry in the International Autonomous Robot Racing Competition, built 
     with the Georgia Tech Robojackets.

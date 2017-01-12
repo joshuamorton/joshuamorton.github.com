@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Buzzmobile
-priority: 0
+priority: 100
 logo: car
 summary: |
     An autonomous parade float built with the Agency at Georgia Tech.

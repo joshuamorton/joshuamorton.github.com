@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Serve
-priority: 0
+priority: 990
 logo: terminal
 summary: |
     Hackathon project at MHacks IV that was designed to help new hackers create
