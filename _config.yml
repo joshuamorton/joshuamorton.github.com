@@ -32,5 +32,16 @@ permalink: pretty
 paginate: 1
 paginate_path: "blog/page/:num"
 
+collections:
+    projects:
+        output: true
+        permalink: /projects/:path/
+    experience:
+        output: true
+        permalink: /experience/:path/
+    involvement:
+        output: true
+        permalink: /involvement/:path/
+
 gems:
     - jekyll-paginate

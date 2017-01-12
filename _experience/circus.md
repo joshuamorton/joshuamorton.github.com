@@ -1,8 +1,8 @@
 ---
-layout: subpage
+layout: page
 title: Circus Camp
-priority: 0
-logo: circuscamp.svg
+priority: 1000
+logo: assets/images/circuscamp.svg
 summary: |
     I clowned around way too much.
 ---

@@ -1,10 +1,12 @@
 ---
-layout: subpage
+layout: page
 title: Google
-priority: 0
-logo: google.png
+priority: 500
+logo: assets/images/google.png
 summary: |
-    I did some cool work for a cool company.
+    As a SETI intern, I built infrastructure to allow more efficient testing of
+    frontend Youtube webcomponents and improved tooling for making large
+    refactors to existing Youtube tests.
 ---
 
 During the summer of 2016, I interned with Google as a Software Engineer, Tools

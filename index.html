@@ -8,34 +8,17 @@ layout: default
         <h2>Experience</h2>
     </header>
     <div class="features">
+        {% assign experience = site.experience | sort:"priority" %}
+        {% for job in experience %}
         <article>
-            <span class="icon fa-diamond"></span>
+            <a href="{{job.url}}" class="image fit"><img src="{{job.logo}}" alt=""
+                style="max-width:200px"/></a>
             <div class="content">
-                <h3>Portitor ullamcorper</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                <h3>{{job.title}}</h3>
+                <p>{{job.summary}}</p>
             </div>
         </article>
-        <article>
-            <span class="icon fa-paper-plane"></span>
-            <div class="content">
-                <h3>Sapien veroeros</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon fa-rocket"></span>
-            <div class="content">
-                <h3>Quam lorem ipsum</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
-        </article>
-        <article>
-            <span class="icon fa-signal"></span>
-            <div class="content">
-                <h3>Sed magna finibus</h3>
-                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            </div>
-        </article>
+        {% endfor %}
     </div>
 </section>
 
@@ -44,63 +27,37 @@ layout: default
     <header class="major">
         <h2>Involvement</h2>
     </header>
-    <div class="posts">
+    <div class="features">
+        {% assign involvement = site.involvement | sort:"priority" %}
+        {% for org in involvement %}
         <article>
-            <a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
-            <h3>Interdum aenean</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
+            <a href="{{org.url}}" class="image fit"><img src="{{org.logo}}" alt=""
+                style="max-width:200px"/></a>
+            <div class="content">
+                <h3>{{org.title}}</h3>
+                <p>{{org.summary}}</p>
+            </div>
         </article>
-        <article>
-            <a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
-            <h3>Nulla amet dolore</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
-            <h3>Tempus ullamcorper</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
-            <h3>Sed etiam facilis</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
-            <h3>Feugiat lorem aenean</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
-        <article>
-            <a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
-            <h3>Amet varius aliquam</h3>
-            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-            <ul class="actions">
-                <li><a href="#" class="button">More</a></li>
-            </ul>
-        </article>
+        {% endfor %}
     </div>
 </section>
-
 
 <section>
     <header class="major">
         <h2>Projects</h2>
     </header>
-    <div class="posts">
+    <div class="features">
+        {% assign projects = site.projects | sort:"priority" %}
+        {% for project in projects %}
+        <article>
+
+            <a href="{{project.url}}" style="border-bottom:none">
+                <span class="icon fa-{{project.logo}}"></span></a>
+            <div class="content">
+                <h3>{{project.title}}</h3>
+                <p>{{project.summary}}</p>
+            </div>
+        </article>
+        {% endfor %}
     </div>
 </section>

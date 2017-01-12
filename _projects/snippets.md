@@ -2,6 +2,9 @@
 layout: page
 title: Snippets
 priority: 0
+logo: file-text
+summary: |
+    Miscellaneous small projects that don't fit anywhere else.
 ---
 
 My [tidbits](https://github.com/joshuamorton/tidbits) repository serves as a

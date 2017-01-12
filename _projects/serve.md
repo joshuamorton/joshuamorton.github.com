@@ -2,6 +2,10 @@
 layout: page
 title: Serve
 priority: 0
+logo: terminal
+summary: |
+    Hackathon project at MHacks IV that was designed to help new hackers create
+    a backend webservice for their website quickly and intuitively.
 ---
 
 I attended [MHacks IV](http://mhacks-iv.devpost.com/) and while there developed

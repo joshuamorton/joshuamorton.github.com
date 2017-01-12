@@ -1,8 +1,8 @@
 ---
-layout: subpage
+layout: page
 title: DecisionFirst Technologies
-priority: 0
-logo: decisionfirst.jpg
+priority: 900
+logo: assets/images/decisionfirst.jpg
 summary: |
     some words here
     across multiple lines

@@ -2,6 +2,9 @@
 layout: page
 title: ClassRank
 priority: 0
+logo: users
+summary: |
+    A collaborative filter applied to choosing college courses.
 ---
 
 [ClassRank](https://github.com/joshuamorton/ClassRank) has been my pet project

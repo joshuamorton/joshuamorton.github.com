@@ -6,6 +6,7 @@ summary: |
     An entry in the International Autonomous Robot Racing Competition, built 
     with the Georgia Tech Robojackets.
 image_url: /assets/images/IARRC.jpg
+logo: bicycle
 ---
 
 ![the IARRC Vehicle]({{page.image_url}}){:.image .fit}
