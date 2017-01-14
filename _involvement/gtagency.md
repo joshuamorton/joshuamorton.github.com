@@ -24,6 +24,7 @@ Some of the projects I was involved in include:
 We also hold events and Tech Talks. As an officer, I did
 [presentations](https://drive.google.com/folderview?id=0Bys9BGMJRUovS1RpWThwUUVXZnM&usp=sharing)
 on some of the following topics:
+
  - Collaborative Filters and Recommender Systems
  - Autonomous Vehicles and AV pipelines
  - n-grams and Markov Chain text generation
