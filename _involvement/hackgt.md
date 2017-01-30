@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: HackGT
 priority: 100
 logo: assets/images/hackgt.jpg

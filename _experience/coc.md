@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: College of Computing at Georgia Tech
 priority: 800
 logo: assets/images/coc.png

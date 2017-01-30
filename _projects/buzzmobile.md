@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Buzzmobile
 priority: 100
 logo: car

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: DecisionFirst Technologies
 priority: 900
 logo: assets/images/decisionfirst.jpg

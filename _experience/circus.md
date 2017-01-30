@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Circus Camp
 priority: 1000
 logo: assets/images/circuscamp.svg

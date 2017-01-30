@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Mogeste
 priority: 300
 logo: mobile

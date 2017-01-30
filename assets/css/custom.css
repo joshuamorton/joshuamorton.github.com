@@ -1,0 +1,20 @@
+.post-content {
+    max-width: 50em;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.float {
+    margin: auto;
+}
+
+.two {
+    max-width: 48%;
+}
+
+.three {
+    max-width: 31%
+}

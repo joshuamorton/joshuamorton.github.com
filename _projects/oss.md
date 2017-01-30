@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Open Source
 priority: 1001
 logo: code-fork

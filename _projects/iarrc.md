@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: IARRC
 priority: 900
 summary: |

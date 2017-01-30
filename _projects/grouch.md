@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Grouch
 priority: 250
 logo: database

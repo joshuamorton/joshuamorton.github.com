@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Neural Network Experiments
 priority: 150
 logo: line-chart

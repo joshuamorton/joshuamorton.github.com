@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Robotics and Intelligent Machines Lab
 priority: 950
 logo: assets/images/rimgt.jpg

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Rust Neural Network
 priority: 300
 logo: flash

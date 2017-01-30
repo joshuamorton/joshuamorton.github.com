@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Snippets
 priority: 1000
 logo: file-text

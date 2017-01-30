@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: The Agency
 priority: 1
 logo: assets/images/gtagency.jpg

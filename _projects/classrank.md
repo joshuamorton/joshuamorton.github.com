@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: ClassRank
 priority: 200
 logo: users

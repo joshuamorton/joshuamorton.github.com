@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Serve
 priority: 990
 logo: terminal

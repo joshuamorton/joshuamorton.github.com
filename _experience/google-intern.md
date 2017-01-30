@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: centered
 title: Google
 priority: 500
 logo: assets/images/google.png
