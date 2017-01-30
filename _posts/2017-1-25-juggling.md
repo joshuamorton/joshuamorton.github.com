@@ -31,8 +31,8 @@ the back throws, etc. are all still "3" in siteswap.
 What sideswap tells us is the relationship between the heights of various
 throws. That is, a throw of "N" in siteswap is the number of beats until we need
 to throw that same prop again, so if I throw a "3" on count 0, then I have
-counts 1 and 2 free to do something, and then I will need to do something with
-that first prop again on count 3.
+counts 1 and 2 free to deal with other props, and then I will need to throw the
+first prop again on count 3.
 
 So then we can start to see why one might call a 3 ball pattern where every
 throw is the same a "3". The first ball gets throw with a 3, then the second
