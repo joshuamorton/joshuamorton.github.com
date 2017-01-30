@@ -9,7 +9,7 @@ Festival](http://atlantajugglers.org/aja-media/events/48-2017-groundhog-day-jugg
 and I have been lucky to attend it since 2010. This year I wanted to combine a
 few of my favorite things: computer science, graph theory, and juggling and at
 the same time revive my blog from the long-dead state it has been in since late
-2015.
+2015.  
 
 I promise there will be code and cool math, but first there will be lots of gifs
 to try and introduce the concepts that motivated this. This will also be a bit
@@ -48,6 +48,14 @@ the way you would juggle with a single prop, a "2" represents holding a ball in
 each hand, or the way you would juggle two props, and 3, 4, 5, and so on
 represent the "cascade" patterns with various numbers of props.
 
+With heights of 0, 1, and 2, the abstraction of "number==throw height" breaks
+down. Its better easier to conceptualize these lower numbers not as heights, but
+instead as the beats until you need to deal with those props again. A one is
+thrown directly across to be handled on the following beat, a 2 is held,
+allowing one count in the other hand, and then the prop must be thrown again on
+count 2, and a 0, well, a 0 is a prop that didn't actually need to be dealt with
+at all.
+
 As an example, here are the 1, 2, 3, and 4 ball base patterns:
 
 {:.center}
@@ -66,7 +74,8 @@ is space freed up.
 
 As an example, here are two 3 ball patterns, "522" on the left and "531" on the
 right. In "522", this extra space is used by holding the balls for an extra
-count, but in "531", there is an extra step where the two held balls are
+count (because remember, a "throw at height 2" is equivalent to just holding the
+prop), but in "531", there is an extra step where the two held balls are
 swapped.
 
 {:.center}
@@ -151,7 +160,7 @@ from these tuples to a bitstring quite easily:
 ```python
 def to_bitstring(tup, length):
     # in this case, length is equivalent to the maxmimum throw height
-    result = [0] * size
+    result = [0] * length
     for pos in arr:
         result[size - pos - 1] = 1
     return tuple(result)
