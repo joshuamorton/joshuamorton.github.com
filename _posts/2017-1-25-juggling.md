@@ -582,7 +582,7 @@ like multiplex and synchronous siteswaps, which are things like
 [[34]5[33]](http://siteswapbot.com/[34]5[33]). And those in general allow you to
 model simultaneous throws from one or both hands.
 
-Bit shoutouts to [Explained Visually](http://setosa.io/ev/markov-chains/), for a
+Big shoutouts to [Explained Visually](http://setosa.io/ev/markov-chains/), for a
 great set of vizualizations on markov chains that I used to build mine, and a
 huge shoutout to JugglingLab, which was a huge help in creating all these fancy
 gifs.
